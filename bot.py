@@ -23,9 +23,9 @@ log = logging.getLogger("ELITE")
 # ══════════════════════════════════════════════════════════════
 #  الإعدادات
 # ══════════════════════════════════════════════════════════════
-TOKEN     = "8675185329:AAEjB2PoLaqfxl9FDxI_cKkJHu-3xfKOMbM"
-ADMIN_ID  = 6918240643
-ADMIN_IDS = [6918240643]   # ← أضف أدمن: [6918240643, 123456789]
+TOKEN     = "8511386262:AAFPfwaWQ9MYczJL1P33D2L7RCDGQWsAxfY"
+ADMIN_ID  = 8665373093
+ADMIN_IDS = [8665373093]   # ← أضف أدمن: [6918240643, 123456789]
 
 bot      = telebot.TeleBot(TOKEN, threaded=True, num_threads=160)
 executor = ThreadPoolExecutor(max_workers=160)
